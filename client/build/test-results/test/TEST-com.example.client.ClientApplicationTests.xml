@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.client.ClientApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-12-30T04:30:11" hostname="H-C-2009731-L" time="2.953">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.client.ClientApplicationTests" time="2.953"/>
+  <system-out><![CDATA[Standard Commons Logging discovery in action with spring-jcl: please remove commons-logging.jar from classpath in order to avoid potential conflicts
+10:00:05.074 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.client.ClientApplicationTests]: ClientApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:00:05.468 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.client.ClientApplication for test class com.example.client.ClientApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.1)
+
+2024-12-30T10:00:07.009+05:30  INFO 30416 --- [client] [    Test worker] c.example.client.ClientApplicationTests  : Starting ClientApplicationTests using Java 17.0.12 with PID 30416 (started by 2009731 in C:\Users\2009731\Downloads\client\client)
+2024-12-30T10:00:07.020+05:30  INFO 30416 --- [client] [    Test worker] c.example.client.ClientApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2024-12-30T10:00:07.170+05:30 DEBUG 30416 --- [client] [    Test worker] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@44afefd5
+2024-12-30T10:00:11.182+05:30 DEBUG 30416 --- [client] [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2024-12-30T10:00:11.379+05:30 DEBUG 30416 --- [client] [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-12-30T10:00:11.456+05:30 DEBUG 30416 --- [client] [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-12-30T10:00:11.579+05:30 DEBUG 30416 --- [client] [    Test worker] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-12-30T10:00:11.785+05:30  INFO 30416 --- [client] [    Test worker] c.example.client.ClientApplicationTests  : Started ClientApplicationTests in 5.631 seconds (process running for 9.514)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
